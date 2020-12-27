@@ -1,0 +1,97 @@
+.event-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 0 18px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+}
+
+.collapsible {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.event-content-brief {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+}
+
+.p-content {
+    width: 10%;
+    text-align: center;
+}
+
+.expand,
+.collapsible:hover {
+    background-color: #008B8B;
+}
+
+.collapsible:after {
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.expand:after {
+    content: "\2212";
+}
+
+.event-content-detail {
+    padding: 1px;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+}
+
+.expanded-table {
+    margin-top: 1rem;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.expanded-table th {
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.expanded-table td {
+    text-align: center;
+}
+
+.add-button {
+    margin: 1rem 1% 1rem 0;
+    float: right;
+}
+
+.hidden{
+    display: none;
+}
+
+.focus{
+    background-color: #008B8B;
+}
